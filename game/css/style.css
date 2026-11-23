@@ -1,0 +1,32 @@
+/* Dustline — page styles. The game itself is drawn on the canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #241a10;
+  color: #e8ddc4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #d9b98a;
+  border: 2px solid #6b5232;
+  border-radius: 6px;
+  cursor: crosshair;
+}
+
+#note {
+  margin: 10px 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cfc4a8;
+}
